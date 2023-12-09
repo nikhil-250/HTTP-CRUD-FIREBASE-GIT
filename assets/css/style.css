@@ -8,7 +8,7 @@
 }
 
 .card {
-position:sticky;
+/* position:sticky; */
 background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -20,6 +20,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 div#card {
   display: flex;
   flex-direction: column-reverse;
+  width: auto;
 }
 .loader {
   position: fixed;
@@ -66,8 +67,8 @@ body{
 
 /* for Firefox */
 @-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
+  from { -moz-transform: translateX(90%); }
+  to { -moz-transform: translateX(-90%); }
 }
 
 /* for Chrome */

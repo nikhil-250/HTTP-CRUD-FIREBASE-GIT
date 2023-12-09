@@ -221,7 +221,7 @@ let tempalting2 = ele => {
 }
 let createCardTemp = ele => {
     let card1 = document.createElement(`div`)
-    card1.className = `card mb-4 background`
+    card1.className = `card mb-4 cd2 background`
     card1.id = ele.id
     card1.innerHTML = `
     <div class="card-header">
